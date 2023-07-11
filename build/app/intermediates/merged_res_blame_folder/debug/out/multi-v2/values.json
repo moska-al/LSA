@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\moska\\rhythmic-gymnastics-club\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\moska\\Desktop\\LSA\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\moska\\.gradle\\caches\\transforms-3\\19a0dfd4021b70333b258b23187eb758\\transformed\\jetified-play-services-basement-18.0.0\\res\\values\\values.xml",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\moska\\rhythmic-gymnastics-club\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\moska\\Desktop\\LSA\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,722",
+                        "endColumns": "143,81,103,108,119,107,84",
+                        "endOffsets": "194,276,380,489,609,717,802"
+                    },
+                    "to": {
+                        "startLines": "127,132,133,134,135,136,137",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "9016,9457,9539,9643,9752,9872,9980",
+                        "endColumns": "143,81,103,108,119,107,84",
+                        "endOffsets": "9155,9534,9638,9747,9867,9975,10060"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\moska\\Desktop\\LSA\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -37,23 +54,6 @@
                         "endLines": "143,146",
                         "endColumns": "12,12",
                         "endOffsets": "10439,10608"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\moska\\rhythmic-gymnastics-club\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,722",
-                        "endColumns": "143,81,103,108,119,107,84",
-                        "endOffsets": "194,276,380,489,609,717,802"
-                    },
-                    "to": {
-                        "startLines": "127,132,133,134,135,136,137",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "9016,9457,9539,9643,9752,9872,9980",
-                        "endColumns": "143,81,103,108,119,107,84",
-                        "endOffsets": "9155,9534,9638,9747,9867,9975,10060"
                     }
                 },
                 {
