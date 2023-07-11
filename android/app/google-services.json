@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992976481400",
+    "project_id": "rhythmic-gymnastics-club",
+    "storage_bucket": "rhythmic-gymnastics-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992976481400:android:892990faf926eff48dd18d",
+        "android_client_info": {
+          "package_name": "com.aqibapps.meeja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992976481400-ad9fmlkt0tmebrdcjq6l7mk7p6bnr23r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsJv5fHVBTKLOOPHPoD7U1QRq9dHPc_78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992976481400-ad9fmlkt0tmebrdcjq6l7mk7p6bnr23r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

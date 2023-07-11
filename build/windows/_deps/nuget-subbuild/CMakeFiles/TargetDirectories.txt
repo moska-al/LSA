@@ -1,0 +1,3 @@
+C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate.dir
+C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/ZERO_CHECK.dir

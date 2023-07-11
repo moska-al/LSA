@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/49e2394c39b6a140ade4f560c67f09e2/nuget-populate.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/3df0a51dcdcfdb086de75a60f0f8670e/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/moska/LSA-app/rhythmic-gymnastics-club/build/windows/_deps/nuget-subbuild/CMakeFiles/0ba4f0da0b91a674593736e9bbebb06e/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\moska\LSA-app\rhythmic-gymnastics-club\build\windows\_deps\nuget-subbuild\CMakeFiles\49e2394c39b6a140ade4f560c67f09e2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0BD696EC-1E5E-3960-A414-9A194CEF32ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

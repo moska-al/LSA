@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\moska\LSA-app\rhythmic-gymnastics-club\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\permission_handler_windows_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\moska\LSA-app\rhythmic-gymnastics-club\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include\permission_handler_windows\permission_handler_windows_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\moska\LSA-app\rhythmic-gymnastics-club\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C331D7CA-CB25-32AE-8FFF-7F013115E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{72731D15-855A-3360-BBE7-ED2AEE8C7961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
