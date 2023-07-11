@@ -4,7 +4,6 @@ import 'package:meeja/views/calender_screen.dart';
 import 'package:meeja/views/contact.dart';
 import 'package:meeja/views/feed_screen.dart';
 import 'package:meeja/views/complaints.dart';
-
 import '../groups/allchat_screen.dart';
 import '../connection/connection_screen.dart';
 import '../profile/profile_screen.dart';
@@ -79,7 +78,9 @@ class _BottomNavigationState extends State<BottomNavigation> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               BottomNavigationItems(
-                getColor: indexValue == 0 ? orangeColor : Color(0xff968E8C),
+                getColor: indexValue == 0
+                    ? Colors.grey
+                    : Color.fromARGB(255, 248, 6, 6),
                 icon: Icons.home,
                 onPressed: () {
                   setState(() {
@@ -88,34 +89,9 @@ class _BottomNavigationState extends State<BottomNavigation> {
                 },
               ),
               BottomNavigationItems(
-                getColor: indexValue == 3 ? orangeColor : Color(0xff968E8C),
-                icon: Icons.help,
-                onPressed: () {
-                  setState(() {
-                    indexValue = 3;
-                  });
-                },
-              ),
-              BottomNavigationItems(
-                getColor: indexValue == 1 ? orangeColor : Color(0xff968E8C),
-                icon: Icons.chat,
-                onPressed: () {
-                  setState(() {
-                    indexValue = 1;
-                  });
-                },
-              ),
-              BottomNavigationItems(
-                getColor: indexValue == 2 ? orangeColor : Color(0xff968E8C),
-                icon: Icons.link,
-                onPressed: () {
-                  setState(() {
-                    indexValue = 2;
-                  });
-                },
-              ),
-              BottomNavigationItems(
-                getColor: indexValue == 4 ? orangeColor : Color(0xff968E8C),
+                getColor: indexValue == 4
+                    ? Colors.grey
+                    : Color.fromARGB(255, 245, 120, 36),
                 icon: Icons.person,
                 onPressed: () {
                   setState(() {
@@ -124,7 +100,42 @@ class _BottomNavigationState extends State<BottomNavigation> {
                 },
               ),
               BottomNavigationItems(
-                getColor: indexValue == 5 ? orangeColor : Color(0xff968E8C),
+                getColor: indexValue == 6
+                    ? Colors.grey
+                    : Color.fromARGB(255, 243, 247, 24),
+                icon: Icons.feed,
+                onPressed: () {
+                  setState(() {
+                    indexValue = 6;
+                  });
+                },
+              ),
+              BottomNavigationItems(
+                getColor: indexValue == 1
+                    ? Colors.grey
+                    : Color.fromARGB(255, 25, 148, 14),
+                icon: Icons.chat,
+                onPressed: () {
+                  setState(() {
+                    indexValue = 1;
+                  });
+                },
+              ),
+              BottomNavigationItems(
+                getColor: indexValue == 2
+                    ? Colors.grey
+                    : Color.fromARGB(255, 19, 233, 248),
+                icon: Icons.link,
+                onPressed: () {
+                  setState(() {
+                    indexValue = 2;
+                  });
+                },
+              ),
+              BottomNavigationItems(
+                getColor: indexValue == 5
+                    ? Colors.grey
+                    : Color.fromARGB(255, 13, 9, 252),
                 icon: Icons.contacts,
                 onPressed: () {
                   setState(() {
@@ -133,11 +144,13 @@ class _BottomNavigationState extends State<BottomNavigation> {
                 },
               ),
               BottomNavigationItems(
-                getColor: indexValue == 6 ? orangeColor : Color(0xff968E8C),
-                icon: Icons.feed,
+                getColor: indexValue == 3
+                    ? Colors.grey
+                    : Color.fromARGB(255, 194, 6, 252),
+                icon: Icons.help,
                 onPressed: () {
                   setState(() {
-                    indexValue = 6;
+                    indexValue = 3;
                   });
                 },
               ),

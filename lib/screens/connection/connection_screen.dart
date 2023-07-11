@@ -20,7 +20,7 @@ class ConnectionScreen extends StatelessWidget {
           return Scaffold(
             appBar: AppBar(
                 title: Center(
-              child: Text('Conversations'),
+              child: Text('Connections'),
             )),
             body: ModalProgressHUD(
               progressIndicator: CircularProgressIndicator(
