@@ -7,8 +7,9 @@ class FeedScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Feeds'),
-      ),
+          title: Center(
+        child: Text('Feeds/News'),
+      )),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance.collection('ads').snapshots(),
         builder: (context, snapshot) {

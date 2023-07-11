@@ -1,18 +1,14 @@
 import 'dart:io';
-
 import 'package:flutter/cupertino.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:meeja/core/enums/view_state.dart';
-
 import 'package:meeja/core/models/add_friend_model.dart';
 import 'package:meeja/core/models/base_view_model.dart';
 import 'package:meeja/core/models/friend_message_model.dart';
-
 import '../../core/locator.dart';
 import '../../core/services/auth_services.dart';
 import '../../core/services/database_services.dart';
 import 'package:intl/intl.dart';
-
 import '../../core/services/database_storage_services.dart';
 
 class ConnectionProvider extends BaseViewModal {
@@ -40,7 +36,7 @@ class ConnectionProvider extends BaseViewModal {
   sendMessages(
     var friendId,
 
-    //  GroupConversationModel groupConversationModel
+    //  GroupConversationModel
   ) async {
     var now = new DateTime.now();
     String formattedTime = DateFormat('h:mm a').format(now);

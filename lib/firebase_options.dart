@@ -4,16 +4,8 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-/// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
+/// Default [FirebaseOptions] for use with Firebase apps.
+
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -66,7 +58,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '992976481400',
     projectId: 'rhythmic-gymnastics-club',
     storageBucket: 'rhythmic-gymnastics-club.appspot.com',
-    iosClientId: '992976481400-tvc5f7sm18oh5ut4ep5u0ucuua98f4ba.apps.googleusercontent.com',
+    iosClientId:
+        '992976481400-tvc5f7sm18oh5ut4ep5u0ucuua98f4ba.apps.googleusercontent.com',
     iosBundleId: 'com.aqibapps.meeja',
   );
 
@@ -76,7 +69,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '992976481400',
     projectId: 'rhythmic-gymnastics-club',
     storageBucket: 'rhythmic-gymnastics-club.appspot.com',
-    iosClientId: '992976481400-tvc5f7sm18oh5ut4ep5u0ucuua98f4ba.apps.googleusercontent.com',
+    iosClientId:
+        '992976481400-tvc5f7sm18oh5ut4ep5u0ucuua98f4ba.apps.googleusercontent.com',
     iosBundleId: 'com.aqibapps.meeja',
   );
 }

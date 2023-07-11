@@ -36,9 +36,10 @@ class _CalendarScreenState extends State<CalendarScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: orangeColor,
-        title: Text('Calendar'),
-      ),
+          backgroundColor: orangeColor,
+          title: Center(
+            child: Text('Calendar'),
+          )),
       body: Column(
         children: [
           TableCalendar(
@@ -62,11 +63,11 @@ class _CalendarScreenState extends State<CalendarScreen> {
             },
             calendarStyle: CalendarStyle(
               todayDecoration: BoxDecoration(
-                color: Colors.blue,
+                color: Color.fromARGB(255, 241, 105, 223),
                 shape: BoxShape.circle,
               ),
               selectedDecoration: BoxDecoration(
-                color: Colors.green,
+                color: Colors.blue,
                 shape: BoxShape.circle,
               ),
             ),

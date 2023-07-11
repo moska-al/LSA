@@ -18,17 +18,10 @@ class ConnectionScreen extends StatelessWidget {
       child: Consumer<ConnectionProvider>(
         builder: (context, model, child) {
           return Scaffold(
-            appBar: CustomAppBar(
-              title: Center(
-                child: Text(
-                  "Connections",
-                  style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black),
-                ),
-              ),
-            ),
+            appBar: AppBar(
+                title: Center(
+              child: Text('Conversations'),
+            )),
             body: ModalProgressHUD(
               progressIndicator: CircularProgressIndicator(
                 color: orangeColor,

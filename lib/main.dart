@@ -17,7 +17,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-//Replaced with script based initialization using firebase_cli
+//Replaced with script based initialization using firebase_client
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -39,7 +39,7 @@ Future<void> main() async {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  // This widget is the root of app.
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
@@ -68,17 +68,8 @@ class MyApp extends StatelessWidget {
           // But
         ),
         home: ScreenUtilInit(
-          //TODO: Screen sizes to be changed according to the design provided
-          //NOTE -- ISSUE:: Since we have wrapped two material widgets on top of each other
-          //This could result in unresponsive alert dialogs sometimes, or Navigatior.pop, not
-          // working properly, in such case it is advised to set root navigator to
-          //true in navaigation etc..
-
           designSize: Size(width, height),
           builder: (_, child) => SplashScreen(),
-          // builder: (_, child) => CalendarScreen(),
-          // builder: (_, child) => SignUp(),
-          //builder: (_, child) => PriceRangeScreen(),
         ),
       ),
     );

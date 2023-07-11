@@ -21,14 +21,11 @@ class ProfileScreen extends StatelessWidget {
           return Scaffold(
             appBar: AppBar(
               elevation: 0,
-              backgroundColor: Color(0xffFEF6F5),
+              backgroundColor: Color.fromARGB(255, 199, 31, 221),
               title: Center(
                   child: Text(
-                "          Profile       ",
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black),
+                "             Profile       ",
+                style: TextStyle(fontSize: 20, color: Colors.white),
               )),
               actions: [
                 IconButton(
@@ -67,35 +64,37 @@ class ProfileScreen extends StatelessWidget {
                   SizedBox(
                     height: 10,
                   ),
-                 CustomExpansionTile(
-  margin: EdgeInsets.symmetric(horizontal: 18),
-  title: Text(
-    "Profile Settings",
-    style: TextStyle(fontWeight: FontWeight.bold),
-  ),
-  leadingSvgPath: "assets/Setting.svg",
-  children: [
-    ListTile(
-      title: Text("Update profile picture"),
-      leading: Icon(Icons.photo),
-      onTap: () {
-        Get.to(UpdateProfileScreen());
-        // Add your code to handle the "Update Friend" action here
-        // For example, you can navigate to a new screen or perform any other action
-      },
-    ),
-  ],
-),
- SizedBox(height: 20),
-                  model.appUser.role=='Admin'?  CustomButton(
-                      title: "Add Feed",
-                      onTap: ()  {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => AdFeedScreen()));
-                      }):SizedBox(),
-                       SizedBox(height: 20),
+                  CustomExpansionTile(
+                    margin: EdgeInsets.symmetric(horizontal: 18),
+                    title: Text(
+                      "Profile Settings",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    leadingSvgPath: "assets/Setting.svg",
+                    children: [
+                      ListTile(
+                        title: Text("Update profile picture"),
+                        leading: Icon(Icons.photo),
+                        onTap: () {
+                          Get.to(UpdateProfileScreen());
+                          // Add your code to handle the "Update Friend" action here
+                          // For example, you can navigate to a new screen or perform any other action
+                        },
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 20),
+                  model.appUser.role == 'Admin'
+                      ? CustomButton(
+                          title: "Add Feed",
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => AdFeedScreen()));
+                          })
+                      : SizedBox(),
+                  SizedBox(height: 20),
                   CustomButton(
                       title: "Logout",
                       onTap: () async {

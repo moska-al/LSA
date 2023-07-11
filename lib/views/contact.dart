@@ -50,8 +50,9 @@ class _ContactsScreenState extends State<ContactsScreen> {
       inAsyncCall: _isLoading,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Contacts'),
-        ),
+            title: Center(
+          child: Text('Contacts'),
+        )),
         body: Container(
           padding: EdgeInsets.all(16),
           child: Column(
@@ -68,8 +69,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
                         child: Text((index + 1).toString()),
                       ),
                       title: Text(contact.displayName ?? ''),
-                      subtitle: Text(contact.phones!.first.value.toString()
-                          ),
+                      subtitle: Text(contact.phones!.first.value.toString()),
                     );
                   },
                 ),

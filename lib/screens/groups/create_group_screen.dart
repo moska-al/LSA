@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import 'package:meeja/screens/groups/group_provider.dart';
-
 import 'package:meeja/screens/groups/new_group_screen.dart';
 import 'package:provider/provider.dart';
-
 import '../../core/constants/colors.dart';
 
 class CreateGroup extends StatelessWidget {
@@ -30,14 +26,14 @@ class CreateGroup extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
-            backgroundColor: Color(0xffFEF6F5),
+            backgroundColor: Color.fromARGB(255, 199, 31, 221),
             title: Center(
               child: Text(
-                'CreateGroup',
+                'Create Group',
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black),
+                    color: Colors.white),
               ),
             ),
           ),

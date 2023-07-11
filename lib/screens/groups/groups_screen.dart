@@ -3,7 +3,6 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:meeja/core/models/groups_model.dart';
 import 'package:meeja/screens/widget/custom_group.dart';
-
 import '../../core/models/person_model.dart';
 import '../widget/custom_connection.dart';
 
@@ -28,7 +27,7 @@ class GroupsScreen extends StatelessWidget {
             ),
           ),
         ),
-        backgroundColor: Color(0xffFEF6F5),
+        backgroundColor: Color.fromARGB(255, 199, 31, 221),
         title: Center(
             child: Text(
           "Groups",

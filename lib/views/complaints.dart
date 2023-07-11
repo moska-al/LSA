@@ -17,8 +17,9 @@ class _ComplaintsScreenState extends State<ComplaintsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Complaints'),
-      ),
+          title: Center(
+        child: Text('Complaints'),
+      )),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

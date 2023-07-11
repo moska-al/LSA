@@ -1,15 +1,12 @@
 import 'dart:io';
 import 'package:intl/intl.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:meeja/core/models/group_conversation_model.dart';
 import 'package:meeja/core/models/groups_model.dart';
 import 'package:meeja/core/services/database_storage_services.dart';
-
 import 'package:meeja/screens/widget/bottom_navigation.dart';
-
 import '../../core/enums/view_state.dart';
 import '../../core/locator.dart';
 import '../../core/models/app_user.dart';

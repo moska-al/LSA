@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:meeja/core/constants/colors.dart';
 import 'package:meeja/core/enums/view_state.dart';
-
 import 'package:meeja/screens/groups/chat_screen.dart';
 import 'package:meeja/screens/groups/create_group_screen.dart';
 import 'package:meeja/screens/groups/group_provider.dart';
@@ -21,17 +20,20 @@ class AllChatScreen extends StatelessWidget {
     return Consumer<GroupProvider>(
       builder: (context, model, child) {
         return Scaffold(
-          appBar: CustomAppBar(
-            title: Center(
-              child: Text(
-                "Chats with Coaches",
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black),
-              ),
-            ),
-          ),
+//          appBar: CustomAppBar(
+          //          title: Center(
+          //            child: Text("Chats",
+          //              style: TextStyle(
+          //                fontSize: 20,
+          //                fontWeight: FontWeight.bold,
+//                  color: Colors.black),
+//              ),
+//            ),
+//          ),
+          appBar: AppBar(
+              title: Center(
+            child: Text('Conversations'),
+          )),
           body: ModalProgressHUD(
             progressIndicator: CircularProgressIndicator(
               color: orangeColor,
