@@ -106,7 +106,7 @@ class _SignUpState extends State<SignUp> {
                                 onChanged: (value) {
                                   model.appUser.fullName = value;
                                 },
-                                hinttext: "Enter Full Name",
+                                hinttext: "Enter Name & Surname",
                                 text: 'Full Name',
                               ),
                               SizedBox(
@@ -123,7 +123,7 @@ class _SignUpState extends State<SignUp> {
                                   model.appUser.userName = value;
                                 },
                                 hinttext: "Enter a unique username",
-                                text: 'username',
+                                text: 'Username',
                               ),
                               SizedBox(
                                 height: 10,
@@ -155,7 +155,7 @@ class _SignUpState extends State<SignUp> {
                                   model.appUser.password = value;
                                 },
                                 hinttext: "Password",
-                                text: 'Password',
+                                text: 'Password, mininmum 6 characters',
                               ),
                               SizedBox(
                                 height: 10,
@@ -347,7 +347,7 @@ class _SignUpState extends State<SignUp> {
                             style: TextStyle(color: Colors.black54),
                             children: <TextSpan>[
                               TextSpan(
-                                text: "Login",
+                                text: " Login",
                                 recognizer: TapGestureRecognizer()
                                   ..onTap = () {
                                     Navigator.push(

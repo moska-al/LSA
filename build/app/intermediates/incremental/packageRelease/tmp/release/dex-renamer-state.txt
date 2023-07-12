@@ -1,0 +1,4 @@
+#Wed Jul 12 12:36:16 BST 2023
+base.0=C\:\\Users\\moska\\Desktop\\LSA\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
